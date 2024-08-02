@@ -5,7 +5,7 @@ dotenv.config();
 const PORT = process.env.PORT;
 const mongoose = require('mongoose')
 const userRoute = require('./routes/user.route')
-const mailRoute = require('./routes/mailSchedule.route')
+const mailRoute = require('./routes/mailSchedule.route');
 
 const connectToMongoDB = async()=>{
     try {
